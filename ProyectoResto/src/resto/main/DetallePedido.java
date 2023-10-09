@@ -12,7 +12,7 @@ public class DetallePedido {
   public static void main(String[] args) {
     Conexion conexion = new Conexion(); // Asegúrate de que tengas la clase Conexion configurada correctamente
     DetalleData detalleData = new DetalleData(conexion);
-
+      System.out.println("Hola");
     // Obtener un detalle por ID (reemplaza '1' con el ID del detalle deseado)
     int idDetalle = 1;
     DetalleDelPedido detalle = detalleData.obtenerDetalle(idDetalle);
